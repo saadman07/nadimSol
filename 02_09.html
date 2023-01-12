@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            object-position:center;
+        }
+        .sec-one{
+            display:flex;
+            gap:8px;
+            border:2px solid red;
+            flex-wrap:wrap;
+            /* justify-content: space-between; */
+            align-items: stretch;
+        }
+        .sec-one>div{
+            width:30%;
+            flex-grow:1;
+            height: 335px;
+        }
+        .div-7{
+            display:flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            gap:3px;
+        }
+        .inner{
+            height:50%; 
+            width:100%;           
+        }
+        .div-9{
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+            grid-template-rows: repeat(2,167.5);
+            height:335px;
+        }
+        /* .inner-grid{
+            overflow:hidden;
+        } */
+        
+    </style>
+</head>
+<body>
+    <section class="sec-one">
+        <div class="div-1 alvi"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf-T3l4BrGpDBL7nFO2-sXikEvtXOORtnNsw&usqp=CAU" alt="image 1" width="" height=""></img></div>
+        <!-- <div class="div-2"><img src="images/img-2.jpg" alt="image 2" width="" height=""></img></div> -->
+        <div class="div-3 alvi"><img src="images/img-3.webp" alt="" width="" height=""></img></div>        
+        <div class="div-4 alvi"><img src="images/img-4.jpg" alt="" width="" height=""></img></div>
+         <div class="div-5 alvi"><img src="images/img-5.png" alt="" width="" height=""></img></div>
+         <!-- <div class="div-9 alvi">
+            <div class="inner-grid"><img src="images/img-13.png" alt="" width="" height=""></div> 
+            <div class="inner-grid"><img src="images/img-10.png" alt="" width="" height=""></div>            
+            <div class="inner-grid"><img src="images/img-11.png" alt="" width="" height=""></div>
+            <div class="inner-grid"><img src="images/img-12.png" alt="" width="" height=""></div>                       
+         </div> -->
+         <div class="div-6 alvi"><img src="images/img-6.png" alt="" width="" height=""></img></div>
+         <div class="div-7 alvi">
+            <div class="inner"><img src="images/img-7.png" alt="" width="" height=""></div>
+            <div class="inner"><img src="images/img-8.png" alt="" width="" height=""></div>
+         </div>
+         <div class="div-8 alvi">
+            <img src="images/img-9.png" alt="" width="" height="">
+         </div>
+         <div class="div-9 alvi">
+            <div class="inner-grid"><img src="images/img-13.png" alt="" width="" height=""></div> 
+            <div class="inner-grid"><img src="images/img-10.png" alt="" width="" height=""></div>            
+            <div class="inner-grid"><img src="images/img-11.png" alt="" width="" height=""></div>
+            <div class="inner-grid"><img src="images/img-12.png" alt="" width="" height=""></div>                       
+         </div>
+         <div class="div-10 alvi">
+            <img src="images/img-16.png" alt="" width="" height="">
+         </div>
+    </section>
+</body>
+</html>
